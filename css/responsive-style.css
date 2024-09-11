@@ -1,0 +1,276 @@
+@media(max-width:1024px){
+    h1{
+        font-size: 3.25rem;
+    }
+    
+    h2{
+        font-size: 1.125rem;
+        line-height: 1.5625rem;
+    }
+
+    .wrapper{
+        padding-top: 1.125rem;
+        padding-bottom: 1.25rem;
+    }
+
+    .navigation-warp {
+        text-align: right;
+        background-color: var(--black-color);
+    }
+}
+
+
+@media(max-width:936px){
+    #home .carousel-caption{
+        top:9rem;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+    .navigation-warp {
+        text-align: right;
+        background-color: var(--black-color);
+    }
+}
+
+
+
+@media(max-width:800px) {
+    h4 {
+        font-size: 0.9375rem;
+        margin-bottom: 0.625rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+    }
+
+    .text-content {
+        width: 100%;
+    }
+
+    .navigation-warp .navbar-brand img {
+        height: 2.8125rem;
+    }
+
+    .navbar .navbar-toggler i {
+        margin-top:.7rem;
+        color:var(--white-color);
+        line-height: 1;
+    }
+
+    .navigation-warp {
+        text-align: right;
+        background-color: var(--black-color);
+    }
+
+    .navbar-toggler {
+        z-index: 1050; 
+    }
+    
+    .navigation-warp .nav-link{
+        line-height: 1.875rem;
+    }
+
+
+    /* top-banner */
+
+    #home .carousel-caption{
+        top:5rem;
+    }
+
+    #home .carousel-caption h1{
+        font-size: 2.5rem;
+        padding-top:3.5rem;
+    }
+
+    #home .carousel-caption p{
+        max-width: 36.25rem;
+        margin: 1rem auto;
+    }
+
+    #home .carousel-item img{
+        height: 22rem;
+    }
+    
+}
+
+
+
+@media(max-width:698px){
+    #home .carousel-caption{
+        top:4rem;
+    }
+
+    #home .carousel-caption h1{
+        font-size: 2rem;
+        margin:1rem auto;
+        padding-top:3rem;
+    }
+
+    .navigation-warp .navbar-brand img {
+        height: 3.2rem;
+    }
+
+    #home .carousel-caption p{
+        max-width: 36.25rem;
+        margin: .7rem auto;
+    }
+
+    .navbar .navbar-toggler i {
+        margin-top:.7rem;
+        color:var(--white-color);
+        line-height: .7;
+    }
+
+    #home .carousel-item img{
+        height: 20rem;
+    }
+    
+
+
+}
+
+
+
+
+@media(max-width:588px){
+
+    h2{
+        font-size:.8rem ;
+        line-height: .8rem;
+        margin-bottom: 3rem;
+    }
+
+    .main-btn{
+        height: 20px;
+        line-height:20px ;
+        font-size:0.9375rem ;
+    }
+
+    .main-btn::after{
+        transform: translateY(0.9375rem);
+    }
+
+    .main-btn::before{
+        transform: translateY(-0.9375rem);
+    }
+
+    /* top banner */
+    
+    #home .carousel-caption{
+        top:5rem;
+    }
+
+
+    .top-header span{
+        font-size: 0.675rem;
+        color: var(--white-color);
+        letter-spacing: 0.1062rem;
+    }
+
+    .navbar{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top:2rem;
+    }
+
+    .navigation-warp .navbar-brand img {
+        height: 3rem;
+    }
+
+    #home .carousel-caption p{
+        max-width: 36.25rem;
+        margin: .8rem auto;
+    }
+
+    .navbar .navbar-toggler i {
+        margin-top:.7rem;
+        color:var(--white-color);
+        line-height: .4;
+    }
+
+    #home .carousel-caption h1{
+        font-size: 1.3rem;
+        margin:.8rem auto;
+        padding-top:1rem;
+    }
+
+    #home .carousel-item img{
+        height: 18rem;
+    }
+
+    .new-arrivals .text-content h2{
+        margin: .5rem auto;
+        padding: 0;
+    }
+
+    .new-arrivals .text-content p{
+        margin: .3rem auto;
+        padding: 0;
+    }
+    
+
+}
+
+@media(max-width:430px){
+    #home .carousel-caption h1{
+        font-size: .8rem;
+        margin:.4rem auto;
+        padding-top:1rem;
+    }
+
+     #home .arousel-caption p{
+        font-size: 0.4rem;
+        line-height: .1rem;
+        margin: 0 auto;
+
+     }
+     #home .carousel-caption{
+        top:4rem;
+    }
+
+
+     .top-header span{
+        font-size: 0.675rem;
+        color: var(--white-color);
+        letter-spacing: 0.1062rem;
+    }
+
+    .navbar{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top:2rem;
+    }
+
+
+    .navigation-warp .navbar-brand img {
+        height: 2rem;
+    }
+
+    .navbar .navbar-toggler i {
+        margin-top:.7rem;
+        color:var(--white-color);
+        line-height: .3;
+    }
+
+    #home .carousel-item img{
+        height: 18.5rem;
+    }
+
+    .new-arrivals .text-content h2{
+        margin: .5rem auto;
+        padding: 0;
+    }
+
+    .new-arrivals .text-content p{
+        margin: .2rem auto;
+        padding: 0;
+    }
+
+}
+
